@@ -63,9 +63,10 @@ AB_OTA_POSTINSTALL_CONFIG += \
 PRODUCT_PACKAGES += \
     bootctrl.sony_sm8250 \
     bootctrl.sony_sm8250.recovery \
-    android.hardware.boot@1.0-service \
-    android.hardware.boot@1.0-impl \
-    android.hardware.boot@1.0-impl.recovery 
+    android.hardware.boot@1.1-service \
+    android.hardware.boot@1.1-impl-qti \
+    android.hardware.boot@1.1-impl-qti.recovery \
+    fastbootd
 
 # SHIPPING API
 PRODUCT_SHIPPING_API_LEVEL := 30

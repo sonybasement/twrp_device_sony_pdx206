@@ -1,10 +1,10 @@
-# twrp_device_sony_pdx20x
+# TWRP For Edo Series
 
-For building TWRP for Sony Xperia mark II series
+For building TWRP for Sony Xperia Edo series
 
-TWRP device tree for Sony Xperia mark II series
+TWRP device tree for Sony Xperia Edo series
 
-The Sony Xperia mark II series (codenamed _"pdx203 & pdx204 & pdx206"_) are flagship smartphones from Sony.
+The Sony Xperia Edo series (codenamed _"pdx203 & pdx204 & pdx206"_) are flagship smartphones from Sony.
 
 Sony Xperia 1 II was announced and released in February 2020.
 
@@ -55,16 +55,18 @@ Sony Xperia pro was announced and released in February 2020.
 **Works**
 
 - Booting.
-- **Decryption** (Android 11)
+- **Decryption** (FBEv2 only)
 - ADB
 - MTP
 - OTG
+
+**Not working**
 - Vibration
+- Decryption (Stock)
 
 **Notes**
 
 - Xperia pro **doesn't have proper kernel source yet** because device itself is expensive and rare, so it is placeholder until someone got it
-- Mark 2 series using Virtual A/B (vAB) instead super partitions
 
 ## Thanks
 

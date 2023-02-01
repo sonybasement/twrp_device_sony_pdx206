@@ -61,12 +61,8 @@ AB_OTA_POSTINSTALL_CONFIG += \
     POSTINSTALL_OPTIONAL_vendor=true
 
 PRODUCT_PACKAGES += \
-    bootctrl.sony_sm8250 \
     bootctrl.sony_sm8250.recovery \
-    android.hardware.boot@1.1-service \
-    android.hardware.boot@1.1-impl-qti \
-    android.hardware.boot@1.1-impl-qti.recovery \
-    fastbootd
+    android.hardware.boot@1.1-impl-qti.recovery
 
 # SHIPPING API
 PRODUCT_SHIPPING_API_LEVEL := 30
@@ -85,4 +81,4 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
 # PRODUCT_RELEASE_NAME ro.twrp.device.name
 PRODUCT_PROPERTY_OVERRIDES += ro.twrp.device.name=$(PRODUCT_RELEASE_NAME)
-TWRP_REQUIRED_MODULES += sony_touchscreen
+TWRP_REQUIRED_MODULES += sony_firmware

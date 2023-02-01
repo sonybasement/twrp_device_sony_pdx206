@@ -37,10 +37,10 @@ on fs
 
 on init
     start vendor.qseecomd
+    start boot-hal-1-1
 
 on boot
     write /sys/devices/virtual/sec/tsp/after_work 1
-    start boot-hal-1-1
     start health-hal-2-1
     setprop sys.usb.config adb
 
